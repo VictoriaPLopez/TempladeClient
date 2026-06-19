@@ -10,6 +10,7 @@ function App(){
            <Route  path="/" exact element = {< HomePage />}/>
            <Route  path="/registrar"  element = {< Cadastro />}/>
            <Route  path="/ASDFHASNFIUADHGOsfhsadog"  element = {< Cadastro />}/>
+           <Route  path="/login"  element = {< Login />}/>
            </Routes>
        </BrowserRouter>
    )

@@ -24,10 +24,10 @@ footer{
     cursor: pointer;
     padding: 0;
 
+
 }
 
 .btnLike img{
-    size: 1fr;
-
+  width: 30px;
 }
 
