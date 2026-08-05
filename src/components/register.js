@@ -26,7 +26,7 @@ function Registrar() {
     const manipularBotao = async () => {
         try {
             const response = await
-                axios.post('https://templadeserver.onrender.com', {
+                axios.post('https://templadeserver.onrender.com/registrar', {
                     nome: nome,
                     email: email,
                     senha: senha,
