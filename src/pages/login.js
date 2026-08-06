@@ -1,4 +1,4 @@
-import
+import PopUp from "../components/popUp";
 
 
 
@@ -9,3 +9,4 @@ return(
     </div>
 )
 }
+export default Login;

@@ -2,6 +2,7 @@ import React from "react";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import HomePage from "./pages/main";
 import Cadastro from "./pages/cadastro";
+import Login from "./pages/login"
 
 function App(){
    return(
@@ -9,8 +10,8 @@ function App(){
        <Routes>
            <Route  path="/" exact element = {< HomePage />}/>
            <Route  path="/registrar"  element = {< Cadastro />}/>
-           <Route  path="/ASDFHASNFIUADHGOsfhsadog"  element = {< Cadastro />}/>
-   
+           <Route  path="/login"  element = {< Login/>}/>
+  
            </Routes>
        </BrowserRouter>
    )
